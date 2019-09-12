@@ -1,10 +1,13 @@
 <div class="container">
     <br>
-    <button class="btn btn-outline-primary" id="boton">Cambiar</button>
+    <button color="accent" class='m-1' (click)="cambiartexto()" mat-flat-button>Cambiar</button>
+    <button color="accent" class='m-1' (click)="copiartexto()" mat-flat-button>Copiar</button>
+    <button color="accent" class='m-1' (click)="limpiartexto()" mat-flat-button>Limpiar</button>
+
     <form>
         <div class="form-group">
             <label for="exampleFormControlTextarea1"></label>
-            <textarea id="texto" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <textarea #texto id="texto" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
     </form>
 </div>
