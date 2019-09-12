@@ -1,0 +1,8 @@
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+textarea {
+    height: 600px !important;
+}
